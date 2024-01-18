@@ -1,0 +1,4 @@
+1. merged_whole_data.csv : The 3 csv dataset given by the organizer are joined using the OUTER JOIN ON datetime and this dataset is created
+2. updated_categorical_data.csv : Two columns: preciptype and Conditions were categorical values in which label encoding was done and then original columns were dropped to create this dataset
+3. imputed_data.csv : This is the most recent dataset. In this dataset, all the missing values have been imputed using the mean and interpolation imputing techniques
+4. final_data.csv : This data contains all the relevant features for the demand forecasting
